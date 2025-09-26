@@ -52,13 +52,14 @@ h1{
 
 .btn_container{
    display: flex;
-   justify-content: end;
+   
    margin-top: 1.5rem;
 }
 
 .next_btn{
-    padding: 14px 32px;
+    margin-left: auto;
 }
+
 
 button{
     box-shadow: 0 0 5px #fdd835;
@@ -68,10 +69,18 @@ button{
    background-color: var(--background-color);
    border: none;
    transition: 1s ease-in-out;
+   padding: 14px 32px;
 }
 
 button:hover{
     background-color: white;
     color: black;
     transform: scale(1.1);
+}
+.hidden{
+    display: none;
+}
+
+.para{
+    font-size: 22px;
 }
